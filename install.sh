@@ -2,7 +2,7 @@
 set -euo pipefail
 
 APP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-APP_NAME="SandyVPN"
+APP_NAME="sandyOVPN"
 LAUNCH_SCRIPT="$APP_DIR/launch.sh"
 DESKTOP_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/applications"
 DESKTOP_FILE="$DESKTOP_DIR/sandyvpn.desktop"
@@ -407,7 +407,7 @@ cat > "$DESKTOP_FILE" <<EOF
 Version=1.0
 Type=Application
 Name=$APP_NAME
-Comment=OpenVPN 3 session launcher
+Comment=A simple OpenVPN 3 session launcher User Interface
 Exec=$LAUNCH_SCRIPT
 Path=$APP_DIR
 $ICON_LINE

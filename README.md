@@ -1,24 +1,24 @@
 # SandyVPN
 
-**OpenVPN 3 GUI for Linux**
+**OpenVPN 3 Manager for Linux**
 
 Tired of typing `openvpn3 session-start`, entering your username, waiting, then doing it all again every hour when working form home? 
 
 
-SandyVPN is a small Linux desktop app that turns your VPN into a one-click habit — with a live connection dashboard, encrypted saved credentials, and a funny ginger cat to remind you to stop scrolling reels!
+SandyVPN is a small Linux desktop app that turns your VPN into one-click — with a live connection dashboard, encrypted saved credentials, and a funny ginger cat to remind you to stop scrolling reels!
 
 ![SandyVPN connected session](image.png)
 
 ## Why SandyVPN?
 
-**Connect in seconds, not minutes.**  
-Save your profile once. Hit Connect. SandyVPN handles the rest.
+**One Single Click!**  
+Save your profile once. Hit Connect every day you login. SandyVPN handles the rest.
 
 **See your session at a glance.**  
 A live timer, real-time stats, and one-click Disconnect or Reconnect — no tabbing back to slack to copy your password!
 
-**Secure.. I Think.**  
-Passwords are encrypted on disk and cleared from RAM after use. Your login isn’t sitting in plain text waiting for the russian hacker.
+**Secure**  
+Passwords are securely encrypted on disk and NOT stored in the RAM during runtime. Your credentials aren't sitting in plain text waiting for the russian hacker.
 
 **Kawai**  
 Dark UI, orange accents, a soft green glow when you’re connected, and a mascot that dozes off when the VPN’s down. 

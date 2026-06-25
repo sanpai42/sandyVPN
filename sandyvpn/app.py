@@ -47,7 +47,7 @@ def _format_duration(seconds: int) -> str:
 class SandyVPNApp:
     def __init__(self, root: tk.Tk) -> None:
         self.root = root
-        self.root.title("SandyVPN")
+        self.root.title("sandyOVPN")
         self.root.minsize(520, 480)
         self._busy = False
         self._connected = False

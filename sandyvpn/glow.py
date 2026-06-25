@@ -78,7 +78,7 @@ class TopBanner(tk.Canvas):
         self.create_text(
             0,
             title_y,
-            text="SandyVPN",
+            text="sandyOVPN",
             anchor=tk.W,
             fill=ORANGE_BRIGHT,
             font=TITLE_FONT,

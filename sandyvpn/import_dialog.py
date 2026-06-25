@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import getpass
 import threading
 import tkinter as tk
 from collections.abc import Callable
@@ -103,7 +104,7 @@ class ConfigImportDialog:
         )
 
         ttk.Label(frame, text="Config name").pack(anchor=tk.W, pady=(0, 4))
-        self.name_var = tk.StringVar()
+        self.name_var = tk.StringVar(value=getpass.getuser())
         self.name_entry = ttk.Entry(frame, textvariable=self.name_var, width=40)
         self.name_entry.pack(fill=tk.X, pady=(0, 16))
 
